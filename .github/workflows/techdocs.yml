@@ -24,7 +24,7 @@ jobs:
           repository: backstage/backstage
           fetch-depth: 1
 
-      - name: Setup Node 20.x
+      - name: Setup Node 22.x
         uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6
         with:
           node-version: 22.x
@@ -33,7 +33,7 @@ jobs:
       - name: Setup Python 3.9
         uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c # v6
         with:
-          python-version: '3.14'
+          python-version: '3.9'
 
       - name: Install techdocs-cli
         run: sudo npm install -g @techdocs/cli
