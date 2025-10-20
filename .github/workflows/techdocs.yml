@@ -50,7 +50,10 @@ jobs:
 
       - name: Copy Translated Readmes
         run: |
-          mv README-*.md docs
+          shopt -s nullglob
+          for file in README-*.md; do
+            mv "$file" docs/
+          done
 
       - name: Generate TechDocs
         run: techdocs-cli generate --no-docker --legacyCopyReadmeMdToIndexMd --verbose
