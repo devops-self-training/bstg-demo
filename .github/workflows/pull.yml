@@ -65,4 +65,4 @@ jobs:
       - name: docker build
         env:
           DOCKER_BUILDKIT: 1
-        run: docker build -t example .
+        run: docker build -t backstage-demo:pr .
