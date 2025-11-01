@@ -159,6 +159,16 @@ To learn how to get started with Renovate we recommend reading the [Installing a
 
 The following sections are to help those working with this repo to keep it maintained.
 
+### GitHub Copilot
+
+This project is configured to work with GitHub Copilot, providing AI-powered code suggestions and assistance. The setup includes:
+
+- VSCode extension recommendations (`.vscode/extensions.json`)
+- Optimized Copilot settings (`.vscode/settings.json`)
+- Project-specific context and conventions (`.github/copilot-instructions.md`)
+
+For detailed setup instructions and usage tips, see the [GitHub Copilot Setup Guide](./docs/github-copilot-setup.md).
+
 ### Local Docker
 
 The Dockerfile in this repo can be built locally using the following command:
