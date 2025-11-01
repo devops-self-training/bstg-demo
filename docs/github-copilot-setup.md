@@ -65,7 +65,7 @@ As you type code, Copilot will automatically suggest completions:
 ### Copilot Chat
 
 Open the Copilot Chat panel:
-- **Keyboard shortcut**: `Ctrl+Shift+I` (Windows/Linux) or `Cmd+Shift+I` (Mac)
+- **Keyboard shortcut**: `Ctrl+Alt+I` (Windows/Linux) or `Cmd+Option+I` (Mac)
 - **Or**: Click the chat icon in the Activity Bar
 
 Use Copilot Chat to:
@@ -179,7 +179,7 @@ You can update this file as the project evolves to keep Copilot's understanding 
 
 - GitHub Copilot processes your code to provide suggestions
 - Suggestions are based on public code and your context
-- Your code is not used to train the public Copilot model (with Copilot Business/Enterprise)
+- See [GitHub Copilot Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-copilot-privacy-statement) for details on data usage
 - Review all suggestions before accepting them
 - Don't commit sensitive information in comments that Copilot might learn from
 

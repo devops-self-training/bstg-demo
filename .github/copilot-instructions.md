@@ -9,7 +9,7 @@ This is a **Backstage** application that showcases Backstage's core features and
 ## Technology Stack
 
 - **Framework**: Backstage (React-based developer portal framework)
-- **Runtime**: Node.js 20 or 22
+- **Runtime**: Node.js 20.x or 22.x
 - **Package Manager**: Yarn 4.5.0 (Berry)
 - **Language**: TypeScript 5.4
 - **Testing**: Jest, Playwright
