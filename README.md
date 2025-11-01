@@ -109,7 +109,7 @@ More information on adjusting search can be found in the [Customizing Search](ht
 
 ### OpenTelemetry
 
-We've set up the Demo to expose the OpenTelemetry metrics and traces following the [Setup OpenTelemetry tutorial](https://backstage.io/docs/tutorials/setup-opentelemetry). These metrics and traces are only available when you run the project locally. To give you a full picture of what this looks like we have a basic observability stack setup using Prometheus Grafana to showcase the metrics and Jaeger to showcase the traces. Here's how you can launch this:
+We've set up the Demo to expose the OpenTelemetry metrics and traces following the [Setup OpenTelemetry tutorial](https://backstage.io/docs/tutorials/setup-opentelemetry). These metrics and traces are only available when you run the project locally. To give you a full picture of what this looks like we have a basic observability stack setup using Prometheus and Grafana to showcase the metrics and Jaeger to showcase the traces. Here's how you can launch this:
 
 1. Clone this repo
 2. Run `yarn install`
