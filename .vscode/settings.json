@@ -1,0 +1,18 @@
+{
+  // GitHub Copilot settings
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true,
+    "typescript": true,
+    "javascript": true,
+    "typescriptreact": true,
+    "javascriptreact": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  
+  // Editor settings for better Copilot experience
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.preview": true
+}
